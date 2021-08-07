@@ -5,5 +5,10 @@ public class Main {
     w.name = "アサカ";
     w.attack(m);
     w.fireball(m);
+
+    Slime s = new Slime();
+    Monster o = new Slime();
+    s.run();
+    o.run();
   }
 }
