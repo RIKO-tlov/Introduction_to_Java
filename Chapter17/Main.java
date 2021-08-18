@@ -1,15 +1,11 @@
-import java.util.ArrayList;
+import java.io.*;
 
-public class Main {
+public class Main{
   public static void main(String[] args) {
-    ArrayList<Integer> points = new ArrayList<Integer>();
-    points.add(10);
-    points.add(80);
-    points.add(75);
-    for (int i : points) {
-      System.out.println(i);
+    try {
+      FileWriter fw = new FileWriter("data.txt");
+    } catch (IOException e) {
+      System.out.println("エラーが発生しました。");
     }
   }
 }
-
-//後で変更
