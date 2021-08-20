@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Main{
+public class Main2 {
   public static void main(String[] args) {
     try (FileWriter fw = new FileWriter("data.txt");) {
       fw.write("hello!");
